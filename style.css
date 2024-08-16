@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+   
+    
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box{
+    height: 70%;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.973);
+}
+
+.box h1{
+    font-size: 3vw;
+    text-align: center;
+
+}
+
+
+.box input{
+    height: 3vw;
+    width: 60%;
+    margin-top: 3vw;
+    border-radius: 8px;
+    border: 2px solid black;
+    outline: none;
+    padding: 0 2vw;
+    font-weight: 600;
+    
+}
+
+.box button{
+    height: 3vw;
+    width: 38%;
+    margin-top: 3vw;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 0 2vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.box button:hover{
+    background-color: rgb(218, 218, 221);
+    transition: 0.3s;
+}
+
+
+
+.image{
+    background: linear-gradient(rgba(17, 17, 17, 0.11), rgba(0, 0, 0, 0.5)),  url(./cloud-shapes-with-blue-background.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 8px;
+    padding: 2vw;
+
+}
+
+#weatherInfo p{
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    margin-top: 2vw;
+    height: 2.5vw;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.411);
+    background-color: rgba(102, 101, 101, 0.281);
+    font-weight: 700;
+}
